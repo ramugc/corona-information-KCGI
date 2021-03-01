@@ -1,0 +1,192 @@
+<style>
+@media only screen and (max-width: 850px){
+  body {
+  font-family: cursive;
+  margin: 0;
+  text-align: justify;
+  background-color: lightblue;;
+}}
+/* Style the header */
+.header {
+  background-color:##D3D3D3;
+  padding: 0px;
+  text-align: center;
+  font-family: cursive;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+.rightnav {
+  overflow: hidden;
+  background-color: #ffffff;
+}
+
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+.rightnav a {
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 0px 0px;
+  text-decoration: none;
+  
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+
+	.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 20px;
+  grid-column-gap: 10px;
+  background-color: #E4C2C1;
+  padding: 8px;
+}
+
+
+	.grid-container > div {
+  background-color: #FEF2F2;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+
+.column {
+  float: left;
+  width: 23.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+
+.middle-section {
+  padding: 10px;
+  text-align: justify;
+  background-color: #ffffff
+  color: #000000;
+  font-family: cursive;
+  
+}
+.about-map {
+  float: left;
+  width: 32%;
+  height:298px;
+  padding: 7px;
+  background-color: #ffffff;
+ 
+}
+.about-hospital {
+  float: left;
+  width: 32%;
+  height:300px;
+  padding: 11px;
+  background-color: #ffffff;
+}
+ .about-travel {
+  float: left;
+  width: 32%;
+  height:300px;
+  padding: 7px;
+  background-color: #ffffff;
+}
+.container {
+  padding: 0 6px;
+   center;
+}/* for image*/
+.image1{
+  width:493px;
+  height:297px;
+  border-radius: 0%;
+  
+ 
+}
+/* -------------*/
+/* for image*/
+.image2{
+  width:60%;
+  border-radius: 63%;
+  text-align: center;
+  padding: 70px;
+}
+/* -------------*/
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: GREY;
+}
+
+.button {
+  border: #000000;
+  outline: 0;
+  display: inline-block;
+  padding: 3px;
+  color: WHITE;
+  background-color:#white;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+.textoverimage {
+  position: relative;
+  font-family: Arial;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color:;
+  color: white;
+  
+}
+
+
+.button:hover {
+  background-color: #000000;
+}
+
+
+  .column {
+    width:24.45%;
+    display: block;
+	padding-left: 0px;
+  
+}
+/* Footer */
+.footer {
+  padding: 3px;
+  text-align: center;
+  background: 	#808080;
+}
+
+</style>

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href = "ip2.css">
+<body>
+<div class="topnav">
+  <a href="index.html"><img src="home.png"alt="home" style="width:40px" "height:20px"></a></div>
+<style>
+#main {
+    align-content: center;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  align-content: center;
+}
+
+
+/* Try Changing perspective to left or right  */
+
+.flip-card {
+  background-color: transparent;
+  width: 300px;
+  height: 300px;
+  perspective: 1000px;
+}
+
+/* Try Changing transform-style preserve-3d to flat */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 8s;
+  transform-style: preserve-3d;
+  
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flip-card-front {
+
+}
+
+.flip-card-back {
+  text-align: center;
+  color: white;
+  background-color: #white;
+  transform: rotateY(180deg);
+
+
+</style>
+</head>
+<body>
+
+
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="coronainternal2.jpg" style="width:300px height:300px" class="center">
+    </div>
+    
+    <div class="flip-card-back">
+       <img src="coronainternal3.jpg" style="width:300px height:300px" class="center">
+      
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

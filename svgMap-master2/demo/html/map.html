@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>svgMap HTML demos</title>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0">
+
+  <script src="https://cdn.jsdelivr.net/npm/svg-pan-zoom@3.6.1/dist/svg-pan-zoom.min.js"></script>
+
+  <link href="./demo.css" rel="stylesheet">
+  <link href="../../dist/svgMap.css" rel="stylesheet">
+  <script src="../../dist/svgMap.js"></script>
+</head>
+<body>
+<style>
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0; /* Space from this element (entire page) and others*/
+    padding: 0; /*space from content and border*/
+    border-width: thin;
+    overflow:hidden;
+    display:block;
+}
+
+h2 {
+  font-family:  sans-serif ;
+  
+}
+</style>
+
+  
+    <!-- Demo GPD -->
+
+    <div class="container">
+      <h2>
+Coronavirus Pandemic (COVID-19) world wide statistics</h2>
+
+      <div id="svgMapGPD"></div>
+      <script src="./data/gdp.js"></script>
+      <script>
+        new svgMap({
+          targetElementID: 'svgMapGPD',
+          data: svgMapDataGPD
+        });
+      </script>
+    </div>
+	</script>
+    </div>
+
+  
+
+</body>
+</html>
